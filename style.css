@@ -69,3 +69,24 @@ body{
     color: var(--cor-secundaria);
     font-size: 0.75rem ;
 }
+
+.outras_telas{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 69px;
+    
+}
+
+.outras__telas__conteudo{
+    width: 30%;
+    
+
+}
+
+.container__titulo__outras__telas{
+    margin-top: 0.5em;
+    font-size: 3rem;
+    font-weight: bold;
+}
