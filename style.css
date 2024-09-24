@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-dos-botoes: #167BF7;
+    --cor-de-fundo: #00030C;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body{
+    background-color:var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal); 
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal{
+   background-image: url(/imagens/Background.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   align-content: center;
+   text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa{
+    margin: 0 11em;
+}
+
+.container__titulo{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0 ;
+}
+
+.container__botao{
+    text-decoration: none;
+    background-color: var(--cor-dos-botoes);
+    color: var(--cor-principal);
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 1rem; 
+    display: block; 
+    margin-bottom: 1em;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-principal);
+}
+
+.container__aviso{
+    color: var(--cor-secundaria);
+    font-size: 0.75rem ;
+}
