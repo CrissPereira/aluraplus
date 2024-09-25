@@ -23,7 +23,7 @@ body{
 }
 
 .principal{
-   background-image: url(/imagens/background.png);
+   background-image: url(./imagens/background.png);
    background-repeat: no-repeat;
    background-size: contain;
    align-content: center;
@@ -99,4 +99,35 @@ body{
     padding: 1em;
     border-radius: 8px;
     font-size: 1rem; 
+}
+
+.tela_dispositivos{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 6em;
+  
+}
+
+.dispositivos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 69px;
+    font-size:2rem ;
+    margin: 1em 0 ;
+   
+}
+.final{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 3em;
+}
+
+.logo_alura{
+    margin-bottom: 1em;
+}
+.rodape{
+    font-size: 1rem;
 }
