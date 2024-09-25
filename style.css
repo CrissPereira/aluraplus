@@ -23,7 +23,7 @@ body{
 }
 
 .principal{
-   background-image: url(/imagens/Background.png);
+   background-image: url(/imagens/background.png);
    background-repeat: no-repeat;
    background-size: contain;
    align-content: center;
@@ -68,6 +68,7 @@ body{
 .container__aviso{
     color: var(--cor-secundaria);
     font-size: 0.75rem ;
+    font-weight: 400;
 }
 
 .outras_telas{
@@ -81,12 +82,21 @@ body{
 
 .outras__telas__conteudo{
     width: 30%;
-    
-
 }
 
 .container__titulo__outras__telas{
-    margin-top: 0.5em;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
+}
+
+.texto__espacado{
+    margin-bottom: 2em;
+}
+.outras__telas__conteudo__botao{
+    text-decoration: none;
+    background-color: var(--cor-dos-botoes);
+    color: var(--cor-principal);
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 1rem; 
 }
