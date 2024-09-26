@@ -60,6 +60,11 @@ body{
     margin-bottom: 1em;
 }
 
+.container__botao:hover{
+    background-color: #fbfcfd;
+    color: var(--cor-dos-botoes);
+}
+
 .botao__secundario{
     background-color: transparent;
     border: 2px solid var(--cor-principal);
@@ -76,7 +81,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 69px;
+    gap: 15em;
     
 }
 
@@ -89,16 +94,16 @@ body{
     font-weight: bold;
 }
 
+.conteudo__texto{
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+}
+
 .texto__espacado{
     margin-bottom: 2em;
 }
-.outras__telas__conteudo__botao{
-    text-decoration: none;
-    background-color: var(--cor-dos-botoes);
-    color: var(--cor-principal);
-    padding: 1em;
-    border-radius: 8px;
-    font-size: 1rem; 
+.outras__tela__botao{
+    display: inline-block;  
 }
 
 .tela_dispositivos{
@@ -106,7 +111,24 @@ body{
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 6em;
-  
+    border: 1px solid var(--cor-principal);
+    border-radius: 20px;
+    margin: 0 15% 10% 15%; 
+}
+
+.dispositivos__amarelo:hover{
+    background-color: #ffff00b4;
+    border-radius: 10px;
+}
+
+.dispositivos__verde:hover{
+    background-color: #008000b6;
+    border-radius: 10px;
+}
+
+.dispositivos__azul:hover{
+    background-color: #0000ffb6;
+    border-radius: 10px;
 }
 
 .dispositivos{
@@ -115,9 +137,9 @@ body{
     list-style: none;
     gap: 69px;
     font-size:2rem ;
-    margin: 1em 0 ;
-   
+    margin: 1.5em 0 ;
 }
+
 .final{
 display: flex;
 flex-direction: column;
@@ -130,4 +152,21 @@ margin-bottom: 3em;
 }
 .rodape{
     font-size: 1rem;
+}
+
+.dispositivos__links{
+    text-decoration: none;
+    color: var(--cor-principal); 
+    padding: 15px;
+}
+
+.dispositivos__links:hover{
+background-color: #167BF7;
+border-radius: 8px;
+}
+
+.rodape_texto{
+    font-size: 0.87rem;
+    text-align: center;
+    padding: 1em;
 }
