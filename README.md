@@ -1,2 +1,1 @@
-# aluraplus
- Site criado usando conhecimentos da Plataforma Alura
+Site feito através do Figma da plataforma de ensino da Alura para aprimorar meu aprendizado com HTML5 e CSS3, focando em utilizar diplay grid e display flex, variaveis em CSS3 e támbem as pseudo class.
