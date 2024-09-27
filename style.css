@@ -23,7 +23,7 @@ body{
 }
 
 .principal{
-   background-image: url(/imagens/fundo.png);
+   background-image: url(./imagens/fundo.png);
    background-repeat: no-repeat;
    background-size: contain;
    align-content: center;
